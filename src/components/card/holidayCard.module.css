@@ -1,0 +1,87 @@
+.container {
+	border: none;
+	border-radius: 0rem;
+	background: white;
+	width: 50rem;
+	color: black;
+}
+
+.container img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 0;
+}
+
+.cardBody {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.details {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	margin: 0.25rem;
+	color: black;
+}
+
+.title {
+	color: var(--dark-blue);
+}
+
+.details button {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	padding: 0.5rem;
+	width: 16rem;
+	height: 4rem;
+	background: var(--yellow);
+	border: none;
+	font-weight: 800;
+	color: var(--dark-blue);
+}
+
+.details button .buttonText {
+	letter-spacing: 0.02rem;
+}
+
+.footer {
+	padding: 1rem;
+}
+
+.footerTitle {
+	color: var(--dark-blue);
+}
+
+.imageContainer {
+	position: relative;
+	width: 100%;
+}
+
+.accordionButton {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	cursor: pointer;
+	background-color: white;
+	padding: 0.5rem 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: bold;
+	color: var(--dark-blue);
+	transition: background-color 0.2s;
+	width: 40%;
+}
+
+.accordionIcon {
+	font-size: 1rem;
+	transition: transform 0.2s;
+}
+
+.accordionContent {
+	border-bottom: solid 1px var(--grey);
+}
